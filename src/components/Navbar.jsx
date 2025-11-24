@@ -41,13 +41,7 @@ export default function Navbar() {
     }
 
     setLoading(true);
-<<<<<<< HEAD
-=======
-    const result = await axios.post("https://restudent-backend.onrender.com/book/book_table",
-      { name, email, date: selectedDate, time: selectedTime, guests },
-      { withCredentials: true }
-    );
->>>>>>> 2de6a9e37786013900a7ee086952c90a92756761
+
 
     try {
       const templateVars = {
